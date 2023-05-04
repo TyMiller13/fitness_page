@@ -1,15 +1,23 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family = Besley:ital, wght@0,400;1,400;1,500&display=swap")
 
+
+
 /* root */
-:root {
-    --main: #ff0000;
-    --black: #000;
-    --charcoal: #272626;
-    --white: #fff;
+/* :root {
+    --main:#59a845;
+    --black:#000;
+    --charcoal:#272626;
+    --white:#fff;
     --box_shadow: 0 0.5rem 1.5rem
     rgba(0, 0, 0, 0.6);
+} */
+
+body {
+    background-color: #272626;
+    color: #fff;
 }
+
 
 * {
     font-family: "Besley", serif;
@@ -21,3 +29,13 @@
 }
 
 /* Nav-Header Section */
+.navbar {
+    background-color: #59a845;
+    padding: 20px;
+    border-bottom: 1px solid var(--white);
+}
+
+.navbar-brand {
+    font-size: 2em;
+    padding: 0 60px;
+}
