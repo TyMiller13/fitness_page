@@ -1,41 +1,52 @@
-/* google font */
-@import url("https://fonts.googleapis.com/css2?family = Besley:ital, wght@0,400;1,400;1,500&display=swap")
-
-
-
-/* root */
-/* :root {
-    --main:#59a845;
-    --black:#000;
-    --charcoal:#272626;
-    --white:#fff;
-    --box_shadow: 0 0.5rem 1.5rem
-    rgba(0, 0, 0, 0.6);
-} */
-
-body {
-    background-color: #272626;
-    color: #fff;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-
-* {
-    font-family: "Besley", serif;
+.navbar{
+    background: black;
+    color: white;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
-*::selection {
-    background: var(--main);
-    color: var(--black) !important;
+.nav-link:hover{
+    color: rgb(58, 234, 64);
 }
 
-/* Nav-Header Section */
-.navbar {
-    background-color: #59a845;
-    padding: 20px;
-    border-bottom: 1px solid var(--white);
+.nav-item{
+   padding-right: 50px; 
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Unica One', cursive;
 }
 
-.navbar-brand {
-    font-size: 2em;
-    padding: 0 60px;
+.navbar-brand:hover{
+    color: white;
+}
+
+span{
+    color: rgb(58, 234, 64);
+    cursor: pointer; 
+}
+
+.d-flex{
+    font-family: 'Unica One', cursive;
+    color: rgb(58, 234, 64);
+}
+
+/* ~~~~~~~~~ MAIN SECTION ~~~~~~~~~~ */
+.main{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./images/gym_exhausted.jpg)no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.main h1 {
+    font-size: 5rem;
 }
