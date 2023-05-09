@@ -50,4 +50,69 @@ span{
 .main h1 {
     font-size: 6rem;
     font-family: 'Unica One', cursive;
+    font-weight: 800;
+    
+}
+
+.joinbutton {
+    height: 55px;
+    width: 140px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #3AEA40 0%, #316e33 100%);
+    transition: 1s;
+}
+
+.joinbutton:hover {
+    background: linear-gradient(90deg, #316e33 0%, #3AEA40  100%);
+    transition: all 1s;
+}
+
+/* ~~~~~~~~~ DETAILS SECTION ~~~~~~~~~~ */
+
+.details{
+    margin-top: -50px;
+}
+
+.details h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.details a {
+    text-decoration: none;
+    color: rgb(58, 234, 64);
+}
+
+.back:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg , #316e33 0%, #3AEA40  100%);
+    z-index: -1;
+    transition: all 0.8s;
+}
+
+.back:hover::before{
+    height: 100%;
+}
+.back:hover a{
+    color: white;
+    cursor: pointer;
 }
