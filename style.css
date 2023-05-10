@@ -5,13 +5,15 @@
 }
 
 .navbar{
-    background: black;
+    background: gray;
     color: white;
 }
 .nav-link{
     color: white;
     text-transform: uppercase;
     font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
 .nav-link:hover{
