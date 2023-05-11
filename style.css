@@ -124,6 +124,7 @@ span{
 /* more section */
 
 .more h2{
+    padding-top: 25%;
     font-weight: 800;
 }
 
@@ -180,8 +181,7 @@ p{
 }
 
 .classes .card{
-    /* border: none; */
-
+    border: none;
 }
 
 .classes p{
@@ -206,6 +206,16 @@ p{
 
 /* gallery */
 
+.gallery img{
+    height: 500px;
+    width: 500px;
+    
+}
+
+.card img{
+    height: 300px ;
+    width: auto;
+}
 /* footer */
 .footer{
     background-color: black;
