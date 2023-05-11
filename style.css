@@ -164,3 +164,103 @@ p{
 .services h5{
     font-weight: 700;
 }
+
+.fa-solid{
+    font-size: 2.5rem;
+}
+
+.back:hover .fa-solid{
+    color: white;
+}
+
+/* classes */
+.classes h1{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+
+.classes .card{
+    /* border: none; */
+
+}
+
+.classes p{
+    font-weight: lighter;
+}
+
+.classesbutton{
+    font-weight: bold;
+    height: 55px;
+    width: 80%;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(90deg, #3AEA40 0%, #316e33 100%);
+    transition: 1s; 
+}
+
+.classesbutton:hover {
+    background: linear-gradient(90deg, #316e33 0%, #3AEA40  100%);
+    transition: all 1s;
+}
+
+/* gallery */
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer h4, h5{
+    font-weight: 900;
+}
+
+.footer p{
+    margin: 0;
+    color:  rgb(214, 213, 213);
+}
+
+.link{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.link:hover{
+    color: rgb(58, 234, 64);
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+
+.fa-bolt{
+    font-size: 1.5rem;
+}
+
+.fa-bolt:hover{
+    color: #316e33;
+}
+
+.social{
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s ;
+}
+
+.social:hover{
+    color: rgb(58, 234, 64);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.fa-location-dot, .fa-phone, .fa-envelope{
+    font-size: 1.5rem;
+}
+
+.footer .card{
+    background: rgb(113, 113, 113);
+    border-radius: 0;
+}
+
+.footer .card p{
+    color: black;
+}
