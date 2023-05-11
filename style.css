@@ -62,7 +62,8 @@ span{
     width: 140px;
     color: white;
     outline: none;
-    border: none;
+    border:5px solid rgb(113, 113, 113);
+    border-radius: 100px;
     background: linear-gradient(90deg, #3AEA40 0%, #316e33 100%);
     transition: 1s;
     
@@ -194,7 +195,8 @@ p{
     width: 80%;
     color: white;
     outline: none;
-    border: none;
+    border:5px solid rgb(113, 113, 113);
+    border-radius: 100px;
     background: linear-gradient(90deg, #3AEA40 0%, #316e33 100%);
     transition: 1s; 
 }
